@@ -9,7 +9,7 @@ void setup()
 }
 void draw()
 {
-    background(#FFCDE0);
+    background(221, 186, 255);
     
     while(endX < 800){
      line(startX, startY, endX, endY);
