@@ -4,14 +4,14 @@ int endX = 0;
 int endY = 200;
 void setup()
 {
-  size(400,400);
+  size(800,400);
   background(0);
 }
 void draw()
 {
-    background(#DDBAFF);
+    background(#FFCDE0);
     
-    while(endX < 400){
+    while(endX < 800){
      line(startX, startY, endX, endY);
       endX = startX + (int)(Math.random()*10);
       endY = startY + (int)(Math.random()* 19) + -9;

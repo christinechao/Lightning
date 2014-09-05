@@ -20,14 +20,14 @@ int endX = 0;
 int endY = 200;
 public void setup()
 {
-  size(400,400);
+  size(800,400);
   background(0);
 }
 public void draw()
 {
-    background(0xffDDBAFF);
+    background(0xffFFCDE0);
     
-    while(endX < 400){
+    while(endX < 800){
      line(startX, startY, endX, endY);
       endX = startX + (int)(Math.random()*10);
       endY = startY + (int)(Math.random()* 19) + -9;
